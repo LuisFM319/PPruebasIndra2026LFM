@@ -1,0 +1,36 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url('../Ima/FondoIMA.png'); /* ruta relativa */
+    background-size: cover; /* ajusta la imagen al tamaño de la pantalla */
+    background-repeat: no-repeat; /* evita que se repita */
+    background-attachment: fixed; /* hace que el fondo quede fijo al hacer scroll */
+    background-position: center; /* centra la imagen */
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #dc3545 !important;*/ /* rojo */
+    border-bottom: 2px solid #ffc107;
+}
+
+.is-invalid {
+    border: 2px solid red;
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
